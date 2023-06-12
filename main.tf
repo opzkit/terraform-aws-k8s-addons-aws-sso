@@ -1,10 +1,10 @@
 data "aws_iam_roles" "admin" {
-  name_regex  = "AWSReservedSSO_AWSAdministratorAccess_.*"
+  name_regex  = var.admin_role_regex
   path_prefix = "/aws-reserved/sso.amazonaws.com/"
 }
 
 data "aws_iam_roles" "read_only" {
-  name_regex  = "AWSReservedSSO_AWSReadOnlyAccess_.*"
+  name_regex  = var.view_role_regex
   path_prefix = "/aws-reserved/sso.amazonaws.com/"
 }
 
