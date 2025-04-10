@@ -1,0 +1,27 @@
+# Changelog
+
+## [0.1.0](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/compare/v0.0.2...v0.1.0) (2025-04-10)
+
+
+### Features
+
+* update CI configuration and add release automation ([#10](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/10)) ([adf4590](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/adf45900bf4585e518d7857f65b57ea1171ca0a7))
+
+
+### Miscellaneous Chores
+
+* Configure Renovate ([753c87c](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/753c87c0752a5ae870cf4921d5b48880466c698e))
+* **deps:** add renovate.json ([7b1556b](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/7b1556b4218c01000559913c3e6c6893dc87327a))
+* **deps:** bump actions/checkout from 3 to 4 ([bb1d169](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/bb1d169c35993ad4e5efa0c82c45cc5799932c14))
+* **deps:** bump github/codeql-action from 2 to 3 ([0e73e16](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/0e73e16ad23976ae839ee63709a7c420045a1bea))
+* **deps:** bump github/codeql-action from 2 to 3 ([bfbbde5](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/bfbbde58d143b368343c51e8bb8cb5da63ed1ea6))
+* **deps:** bump wagoid/commitlint-github-action from 5 to 6 ([fdf2add](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/fdf2add2018b8142ec73e38a2df983781442e5f6))
+* **deps:** bump wagoid/commitlint-github-action from 5 to 6 ([a8fbcc7](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/a8fbcc712e3e5eba9edd39121411f41b6ecddcf7))
+* **deps:** pin dependencies ([#8](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/8)) ([2950803](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/2950803fedc29437636fda0d47ee5314089d07a1))
+* update pre-commit flow ([#13](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/13)) ([b0441da](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/b0441da55c1b7c91bb00da4d2c287bbadb96498b))
+* update Terraform required version constraint ([#14](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/14)) ([e8b1851](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/e8b18519a4c63c9e30ac2712b876d55886afc4af))
+
+
+### Code Refactoring
+
+* remove custom commitlint configuration ([#12](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/12)) ([faccba1](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/faccba198de37130ab4b5ae8bfb2a4ba5b0fdd57))
