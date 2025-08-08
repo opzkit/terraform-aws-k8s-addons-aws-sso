@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/compare/v0.1.0...v0.1.1) (2025-08-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#25](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/25)) ([8b6bd2b](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/8b6bd2bcbda572bd053a91e4080c1c2981227f51))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#23](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/23)) ([916b5af](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/916b5afe4504d8d7aa0a7600257efe3573fa9718))
+
 ## [0.1.0](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/compare/v0.0.2...v0.1.0) (2025-06-19)
 
 
