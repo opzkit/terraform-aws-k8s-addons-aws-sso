@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.1](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/compare/v0.1.0...v0.1.1) (2025-08-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#28](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/28)) ([b61a3d6](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/b61a3d6805ff0aeee4277b77365002f86cf784e9))
+* **deps:** update actions/checkout action to v5 ([#29](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/29)) ([6db5346](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/6db5346a96c9401149e0b9503b878c05e47491a3))
+* **deps:** update actions/checkout digest to 08eba0b ([#27](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/27)) ([e24c888](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/e24c888944aa3f4026af0e45307b828994218a88))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#25](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/25)) ([8b6bd2b](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/8b6bd2bcbda572bd053a91e4080c1c2981227f51))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#23](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/23)) ([916b5af](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/916b5afe4504d8d7aa0a7600257efe3573fa9718))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#26](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/26)) ([2948f89](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/2948f89bade12c3a08b78c36e4c7e017de5dc1c0))
+* **deps:** update terraform-linters/setup-tflint action to v5 ([#30](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/30)) ([63109ca](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/63109caecb86979112247d2ed981c1d2fc561f08))
+
 ## [0.1.0](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/compare/v0.0.2...v0.1.0) (2025-06-19)
 
 
