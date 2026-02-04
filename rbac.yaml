@@ -1,12 +1,24 @@
 apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: k8s-reader
+rules:
+- apiGroups: ["*"]
+  resources: ["*"]
+  verbs:
+    - list
+    - get
+    - watch
+---
+apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
   name: read-only
-subjects:
-  - kind: Group
-    name: read-only
-    apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: view
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: k8s-reader
+subjects:
+- apiGroup: rbac.authorization.k8s.io
+  kind: Group
+  name: read-only
