@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.1](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/compare/v0.2.0...v0.2.1) (2026-02-17)
+
+
+### Bug Fixes
+
+* use floor version constraints for provider versions ([#99](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/99)) ([d377fd6](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/d377fd63ae9a7777db07d3b6daf1659447199811))
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.4.3 ([#97](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/97)) ([be1e289](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/be1e289a90db98e2511915d565703c344d101e44))
+
 ## [0.2.0](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/compare/v0.1.0...v0.2.0) (2026-02-04)
 
 
