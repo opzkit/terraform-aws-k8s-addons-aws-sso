@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.2.2](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/compare/v0.2.1...v0.2.2) (2026-06-28)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6.0.3 ([#124](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/124)) ([4116a99](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/4116a99badcd80a91add874588b49012d2b6a584))
+* **deps:** update actions/checkout action to v7 ([#125](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/125)) ([1ab3e0f](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/1ab3e0feedf1bb11a8b39abe023559899d62a1aa))
+* **deps:** update actions/checkout digest to df4cb1c ([#123](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/123)) ([3f22499](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/3f224992cd6feb19af37f36611ad59a034a0c61e))
+* **deps:** update actions/create-github-app-token action to v3 ([#105](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/105)) ([0681095](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/0681095556eb5522f4cb791c250a819085ab61d9))
+* **deps:** update actions/create-github-app-token digest to 1b10c78 ([#111](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/111)) ([b881837](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/b881837fc42afb7c6cae241801f84c947e26aea7))
+* **deps:** update actions/create-github-app-token digest to 7bd0371 ([#110](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/110)) ([80566e5](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/80566e530d78cdffafa48f71a3197623b4ed4936))
+* **deps:** update actions/create-github-app-token digest to bcd2ba4 ([#120](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/120)) ([bb95db5](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/bb95db503cd034ae0e93afd48d0bfe4e103bc49f))
+* **deps:** update actions/setup-python action to v6.3.0 ([#129](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/129)) ([f6a8c24](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/f6a8c2413e09e3edae3d85e9166a9ee41509f15d))
+* **deps:** update googleapis/release-please-action action to v5 ([#115](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/115)) ([c52a225](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/c52a22580ee3e3660629d2d6223b4f908c739a84))
+* **deps:** update googleapis/release-please-action digest to 5c625bf ([#113](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/113)) ([1ff8de7](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/1ff8de7657a6763ff92c4733b5b676c32c069bcf))
+* **deps:** update hashicorp/setup-terraform action to v4 ([#102](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/102)) ([37b7bf5](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/37b7bf51933107675ac744aa6cdeded71430b296))
+* **deps:** update hashicorp/setup-terraform action to v4.0.1 ([#121](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/121)) ([f7c109d](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/f7c109d1c534856955a5d67d7870bad35ac0d23f))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.25.0 ([#117](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/117)) ([91b7998](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/91b7998eef77d911847d25d38ae63149df171d97))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.26.0 ([#130](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/130)) ([1244915](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/12449152e1ba58e2bfafd1deb6f3a7c0eb0874e9))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.106.0 ([#122](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/122)) ([4c9d388](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/4c9d3884b01b4d02c3f5018b553fb51f69fd6f89))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.107.0 ([#126](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/126)) ([f0f2f17](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/f0f2f17be69f92df6d4c2a40bfe527049d0820c6))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.108.0 ([#128](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/128)) ([4b2e9f9](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/4b2e9f9adb1cd062990b8281a7705fd126771e8e))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.111.0 ([#112](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/112)) ([2b007d0](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/2b007d01fc71748721647a39be512c2dda03cc5b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.126.0 ([#114](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/114)) ([08050e3](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/08050e37052c11c3aff831900b8e811957bb2996))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.140.0 ([#116](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/116)) ([5288550](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/52885504a8dae2a1fc0c1e0c324b4ee4fa2c41f7))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.141.2 ([#118](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/118)) ([2fc3793](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/2fc379352c0ec00c6f9a7d5ebb1d00a47679a8b3))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.150.0 ([#119](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/119)) ([ab2ced8](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/ab2ced8f9111b379984deb7bb247951804d1c1aa))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.227.0 ([#127](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/127)) ([c8f6c2b](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/c8f6c2b27e75c6ad88bcd1e3b2772c0a44e522f8))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#100](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/100)) ([b772031](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/b7720314bb5bd9211bca77d8a25c6ba45798102e))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.59.4 ([#103](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/103)) ([23c3dfb](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/23c3dfbf58e0d0ff18bea8f50e4eb9da43b53488))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.76.2 ([#107](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/107)) ([1915154](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/1915154b77b670bc5048dd867dcbccc31f5f47fa))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.86.0 ([#108](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/108)) ([f4dfa57](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/f4dfa572b73cdabd8a17cb70cc6a7a1509da6272))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.99.1 ([#109](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/109)) ([c335623](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/c335623379651eae378a8f54d662076bad04d8bc))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.2 ([#106](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/issues/106)) ([7dc207b](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/commit/7dc207ba286de9269e47318f2642e3a494fd6cac))
+
 ## [0.2.1](https://github.com/opzkit/terraform-aws-k8s-addons-aws-sso/compare/v0.2.0...v0.2.1) (2026-02-17)
 
 
